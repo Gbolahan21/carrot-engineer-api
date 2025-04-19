@@ -11,7 +11,7 @@ async function fetchData() {
         setTimeout(() => {
             document.querySelector('#engineerData').value = ''
             document.querySelector('#showData').innerText = ''
-        }, 1000)
+        }, 3000)
     } catch (error) {
         console.log(error)
     }
